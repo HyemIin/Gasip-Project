@@ -1,2 +1,2 @@
-# Gasip-Gachon-score-in-professor-
+# Gasip
 가천 수강 프로젝트입니다.
