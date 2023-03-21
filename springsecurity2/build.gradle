@@ -21,7 +21,7 @@ dependencies {
 	implementation 'javax.xml.bind:jaxb-api:2.3.0'
 
 	compileOnly 'org.projectlombok:lombok'
-	annotationProcessor 'org.projectlomok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
 }

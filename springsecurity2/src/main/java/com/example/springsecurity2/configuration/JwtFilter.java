@@ -1,6 +1,7 @@
 package com.example.springsecurity2.configuration;
 
 import com.example.springsecurity2.service.UserService;
+import com.example.springsecurity2.utils.JwtUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.tomcat.util.http.parser.Authorization;
@@ -35,14 +36,24 @@ public class JwtFilter extends OncePerRequestFilter {
             filterChain.doFilter(request,response);
             return;
         }
+        // Token꺼내기
+        String token = authorization.split(" ")[1];
+
+        // Token 만료 여부 확인
+        if (JwtUtil.isExpired(token,secretKey)) {
+            log.error("Token이 만료 되었습니다.");
+            filterChain.doFilter(request, response);
+            return;
+        }
 
         // UserName Token에서 꺼내기
-        String userName = "";
+        String userName = JwtUtil.getUserName(token, secretKey);
+        log.info("userName:{}",userName);
 
         // 권한부여
         UsernamePasswordAuthenticationToken authenticationToken =
                 new UsernamePasswordAuthenticationToken(userName, null, List.of(new SimpleGrantedAuthority("USER")));
-
+        //Detail
         authenticationToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
         SecurityContextHolder.getContext().setAuthentication(authenticationToken);
         filterChain.doFilter(request,response);
