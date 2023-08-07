@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-08-06T16:28:00.715Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.6" etag="d6C-yyyFEibAR2kyAxjE" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-07T07:22:30.559Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="UVErANPiWcbylN6KRcb6" version="21.6.6" type="github">
   <diagram name="페이지-1" id="DwoH7edTf4HsuU-eGd33">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8_uEdGlW4i0jT_Yr1RCu-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_uEdGlW4i0jT_Yr1RCu-4" value="리뷰 작성" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="30" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_uEdGlW4i0jT_Yr1RCu-5" value="로그인" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="410" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_uEdGlW4i0jT_Yr1RCu-6" value="로그아웃" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="500" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_uEdGlW4i0jT_Yr1RCu-7" value="아이디 찾기" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="590" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_uEdGlW4i0jT_Yr1RCu-8" value="비밀번호 찾기" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="680" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_uEdGlW4i0jT_Yr1RCu-9" value="개인정보 수정" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="770" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_uEdGlW4i0jT_Yr1RCu-10" value="회원가입" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="860" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_uEdGlW4i0jT_Yr1RCu-11" value="아이디 중복체크" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="860" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_uEdGlW4i0jT_Yr1RCu-12" value="강의 검색" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="120" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8_uEdGlW4i0jT_Yr1RCu-13" value="교수명 검색" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="210" width="120" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
